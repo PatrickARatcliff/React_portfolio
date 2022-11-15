@@ -2,14 +2,14 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
 return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs justify-content-center">
             <li className="nav-item">
                 <a 
                 className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
                 /*aria-current="page"*/ 
                 href="#AboutMe"
                 onClick={() => handlePageChange('AboutMe')}
-                ><h3>About Me</h3>
+                >About
                 </a>
             </li>
             <li className="nav-item">
@@ -17,7 +17,7 @@ return (
                 className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 href="#Portfolio"
                 onClick={() => handlePageChange('Portfolio')}
-                ><h3>Portfolio</h3>
+                >Portfolio
                 </a>
             </li>
             <li className="nav-item">
@@ -25,7 +25,8 @@ return (
                 className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 href="#Resume"
                 onClick={() => handlePageChange('Resume')}
-                ><h3>Resume</h3></a>
+                >Resume
+                </a>
             </li>
             <li className="nav-item">
                 <a 
@@ -33,7 +34,7 @@ return (
                 href="#Contact"
                 onClick={() => handlePageChange('ContactForm')}
                 /*aria-disabled="true"*/
-                ><h3>Contact Me</h3>
+                >Contact
                 </a>
             </li>
         </ul>
