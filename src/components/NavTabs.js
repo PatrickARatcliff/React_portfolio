@@ -5,7 +5,7 @@ return (
     <ul className="nav nav-tabs justify-content-center">
             <li className="nav-item">
                 <a 
-                className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'AboutMe' ? 'nav-link active bg-dark text-white' : 'nav-link'}
                 /*aria-current="page"*/ 
                 href="#AboutMe"
                 onClick={() => handlePageChange('AboutMe')}
@@ -14,7 +14,7 @@ return (
             </li>
             <li className="nav-item">
                 <a 
-                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Portfolio' ? 'nav-link active bg-dark text-white' : 'nav-link'}
                 href="#Portfolio"
                 onClick={() => handlePageChange('Portfolio')}
                 >Portfolio
@@ -22,7 +22,7 @@ return (
             </li>
             <li className="nav-item">
                 <a 
-                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Resume' ? 'nav-link active bg-dark text-white' : 'nav-link'}
                 href="#Resume"
                 onClick={() => handlePageChange('Resume')}
                 >Resume
@@ -30,7 +30,7 @@ return (
             </li>
             <li className="nav-item">
                 <a 
-                className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'ContactForm' ? 'nav-link active bg-dark text-white' : 'nav-link'}
                 href="#Contact"
                 onClick={() => handlePageChange('ContactForm')}
                 /*aria-disabled="true"*/

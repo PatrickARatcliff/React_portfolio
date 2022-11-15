@@ -72,7 +72,7 @@ function ContactForm() {
     };
 
     return (
-        <div className='justify-content-center m-3'>
+        <div className='justify-content-center mx-3'>
             {/* <!--Section: Contact--> */}
             <section className="mb-4 pt-3">
                 {/* <!--Section heading--> */}
