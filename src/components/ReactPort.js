@@ -1,18 +1,36 @@
 import React, { useState } from 'react';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import AboutMe from './AboutMe';
-import Resume from './Resume';
+import NavTabs from './NavTabs';
+import Portfolio from './pages/Portfolio';
+import ContactForm from './pages/ContactForm';
+import AboutMe from './pages/AboutMe';
+import Resume from './pages/Resume';
 
-function ReactPort() {
 
-    
+export default function ReactPort() {
+    const [currentPage, setCurrentPage] = useState('AboutMe');
+
+    // check for the value of `currentPage`
+    const renderPage = () => {
+        if (currentPage === 'AboutMe') {
+            return <AboutMe />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        return <ContactForm />;
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
         <div>
-            <h1>Patrick Ratcliff</h1>
+            {/* We are passing the currentPage from state and the function to update it */}
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            {/* Here we are calling the renderPage method which will return a component  */}
+            {renderPage()}
         </div>
     );
-
 }
-
-export default ReactPort;

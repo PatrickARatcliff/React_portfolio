@@ -24,14 +24,14 @@ function ContactForm(props) {
     };
 
     return !props.edit ? (
-        <div>
+        <div className='justify-content-center'>
             {/* <!--Section: Contact--> */}
             <section className="mb-4">
                 {/* <!--Section heading--> */}
                 <h2 className="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
                 {/* <!--Section description--> */}
                 <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
-                <div className="row">
+                <div className="row mx-5">
                     {/* <!--Grid column--> */}
                     <div className="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="mail.php" method="POST" onSubmit={handleSubmit}>
