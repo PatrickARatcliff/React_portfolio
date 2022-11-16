@@ -29,10 +29,12 @@ export default function ReactPort() {
         <div>
             <div className="m-3 text-center"><h1>Patrick Ratcliff</h1></div>
             {/* We are passing the currentPage from state and the function to update it */}
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            <div>
+                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
             {/* Here we are calling the renderPage method which will return a component  */}
             <div className="bg-dark text-white" >
-            {renderPage()}
+                {renderPage()}
             </div>
         </div>
     );
