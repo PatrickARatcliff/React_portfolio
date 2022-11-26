@@ -46,7 +46,7 @@ A window should automatically open in your browser displaying the app (if not, n
 
         http://localhost:3001/ 
 
--OR, in your browser, navigate to:
+-OR, in your browser, navigate to
 
         https://PatrickARatcliff.github.io/React_portfolio/ 
 
