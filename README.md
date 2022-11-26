@@ -42,13 +42,13 @@ Screenshots:
 A window should automatically open in your browser displaying the app (if not, navigate to http://localhost:3001/).
   
 ## Usage Information
-- To use the app, either deploy lacally 
+- To use the app, either deploy locally 
 
         http://localhost:3001/ 
 
--OR navigate to:
+-OR, in your browser, navigate to:
 
-        https://PatrickARatcliff.github.io/React_portfolio/ in your browser
+        https://PatrickARatcliff.github.io/React_portfolio/ 
 
 - You will be redirected to the "About Me" page, you can naviagte to the "Portfolio"/"My Resume"/"Contact Me" pages using the tabs at the bottom of the header. The "Portfolio" page has six applications ina carousel, simply click on the arrows on either side of the application snapshots to navigate between them. The "Resume" page has four images in a carousel, simply click on the arrows on either side of the resume pages to navigate between them. The "Contact Me" page has input fields to be filled out, and a submit button to send your message.
   
