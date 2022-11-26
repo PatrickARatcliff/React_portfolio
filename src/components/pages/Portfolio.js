@@ -1,5 +1,14 @@
 import React, { useState } from 'react';
+
 import Carousel from 'react-bootstrap/Carousel';
+
+import HiKamp from '../../images/HiKamp.jpeg';
+import tech_blog from '../../images/tech_blog.jpeg';
+import social_network_api from '../../images/social_network_api.jpeg';
+import team_profile_gen from '../../images/team_profile_gen.jpeg';
+import fetch_coin from '../../images/fetch_coin.jpeg';
+import weather_dashboard from '../../images/weather_dashboard.jpeg';
+
 
 function Portfolio() {
 
@@ -10,72 +19,88 @@ function Portfolio() {
     };
 
     return (
-        <div>
-            <Carousel activeIndex={index} onSelect={handleSelect} /*variant="dark"*/>
-                <Carousel.Item>
+        <div className=" container align-middle p-2 bg-dark vh-100" style={{maxWidth: "700px"}}>
+            <Carousel activeIndex={index} onSelect={handleSelect} variant="dark">
+                <Carousel.Item className="align-middle p-2">
                     <img
-                        className="d-block w-100"
-                        src="../src/logo.svg"
-                        alt="First slide"
+                        className="w-100 d-block"
+                        src={HiKamp}
+                        alt="First slide: HiKamp MVC"
                     />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light ">
+                        <h3>HiKamp MVC</h3>
+                        <h5>Node/Express/SQL<br></br>Sequelize/Handlebars</h5>
+                        <p>Interactive app allows a user to easily search campgrounds within the United States National Park Service</p>
+                        <a href="https://github.com/stevecalla/hiKamp" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
+                        <a href="https://hikamp.herokuapp.com/" target="_blank" role="button" className="btn btn-info mx-1">Heroku App</a>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className="align-middle p-2">
                     <img
                         className="d-block w-100"
-                        src="src/logo.svg"
-                        alt="Second slide"
+                        src={tech_blog}
+                        alt="Second slide: Tech Blog MVC"
                     />
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
+                        <h3>Tech Blog MVC</h3>
+                        <h5>Node/Express/SQL<br></br>Sequelize/Handlebars</h5>
+                        <p>CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts</p>
+                        <a href="https://github.com/PatrickARatcliff/m14c-MVC-tech_blog" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
+                        <a href="https://m14c-mvc-techblog.herokuapp.com/" target="_blank" role="button" className="btn btn-info mx-1">Heroku App</a>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className="align-middle p-2">
                     <img
                         className="d-block w-100"
-                        src="src/logo.svg"
-                        alt="Third slide"
+                        src={social_network_api}
+                        alt="Third slide: Social Network API"
                     />
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <Carousel.Caption className="rounded bg-light bg-opacity-75 text-dark">
+                        <h3>Social Network API</h3>
+                        <h5>Express/MongoDB<br></br>Mongoose ODM</h5>
+                        <p> API for a social network web application allows users to share thoughts, react to friends thoughts, and create a friends list</p>
+                        <a href="https://github.com/PatrickARatcliff/m18c-social_network_api" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className="align-middle p-2">
                     <img
                         className="d-block w-100"
-                        src="src/logo.svg"
-                        alt="Fourth slide"
+                        src={team_profile_gen}
+                        alt="Fourth slide: Team Profile Generator"
                     />
-                    <Carousel.Caption>
-                        <h3>Fourth slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
+                        <h3>Team Profile Generator</h3>
+                        <h5>Node/Inquirer/Jest</h5>
+                        <p>Using node command prompts from the terminal/bash , the user can generate a homepage (html) for their project team</p>
+                        <a href="https://github.com/PatrickARatcliff/m10c-team_profile_generator" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className="align-middle p-2">
                     <img
                         className="d-block w-100"
-                        src="src/logo.svg"
-                        alt="Fifth slide"
+                        src={fetch_coin}
+                        alt="Fifth slide: Fetch Coin"
                     />
-                    <Carousel.Caption>
-                        <h3>Fifth slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
+                        <h3>Fetch Coin</h3>
+                        <h5>3rd Party API</h5>
+                        <p>Quickly find status, basic information, and news for crypto coins</p>
+                        <a href="https://github.com/PatrickARatcliff/k5-project1-finance_info" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
+                        <a href="https://patrickaratcliff.github.io/k5-project1-finance_info/" target="_blank" role="button" className="btn btn-info mx-1">GitHub Pages</a>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className="align-middle p-2">
                     <img
                         className="d-block w-100"
-                        src="src/logo.svg"
-                        alt="Sixth slide"
+                        src={weather_dashboard}
+                        alt="Sixth slide: Weather Dashboard"
                     />
-                    <Carousel.Caption>
-                        <h3>Sixth slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
+                        <h3>Weather Dashboard</h3>
+                        <h5>3rd Party API</h5>
+                        <p>Quickly find weather, basic information for a given city</p>
+                        <a href="https://github.com/PatrickARatcliff/m6c-weather_app" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
+                        <a href="https://patrickaratcliff.github.io/m6c-weather_app/" target="_blank" role="button" className="btn btn-info mx-1">GitHub Pages</a>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

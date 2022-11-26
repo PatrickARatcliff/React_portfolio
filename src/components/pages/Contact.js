@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ContactForm from './ContactForm';
+import ContactForm from '../ContactForm';
 
 function Contact(props) {
     const [edit, setEdit] = useState({
@@ -15,7 +15,7 @@ function Contact(props) {
 
     return (() => (
         <div>
-            <h3>Contact Me</h3>
+            {/* <h3>Contact Me</h3> */}
             <ContactForm onSubmit={submitContact} />
         </div>
     ));
