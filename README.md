@@ -1,5 +1,5 @@
 # React Portfolio
-# An SPA React Portfolio for PatrickARatcliff; contains an about me, portfolio (six projects applications), resume, and contact pages.
+# An SPA React Portfolio for PatrickARatcliff; contains an about me, portfolio (six applications), resume, and contact pages.
 # ![MIT License](https://img.shields.io/static/v1?label=license&message=MIT&color=green)
 # Date: 26/11/2022, 12:23:50 pm
 
@@ -28,7 +28,7 @@ Screenshots:
 - [License](#license)
   
 ## Project Description
-- CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. Follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+- An SPA React Portfolio for PatrickARatcliff; contains an about me, portfolio (six applications), resume, and contact pages. A place to share my projects not only if I'm applying for jobs or working as a freelancer but also so that I can share my work with fellow developers and collaborate on future projects.
   
 ## Installation Instructions
 - To install, fork the repo, clone to your local repository. In your terminal/bash cd to the local repo and run the command: 
