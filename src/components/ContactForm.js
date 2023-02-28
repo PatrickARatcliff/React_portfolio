@@ -65,11 +65,24 @@ function ContactForm() {
 
         alert(`Thank you for the message ${name}!`);
 
-        setName('');
-        setEmail('');
-        setSubject('');
-        setMessage('');
+        launchEmailPlatform();
+
+        resetForm();
     };
+
+    const resetForm = () => {
+        setName("");
+        setSubject("");
+        setEmail("");
+        setMessage("");
+      };
+
+    const launchEmailPlatform = () => {
+        window.open(
+          `mailto:pratcliff5@gmail.com?name=${name}&subject=${subject}&body=${message}`
+        );
+        return false;
+      };
 
     return (
         <div className="container vh-100 p-2" style={{maxWidth: "900px"}}>

@@ -36,7 +36,7 @@ export default function ReactPort() {
                     <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
                 </div>
             </header>
-            <main className="bg-dark h-100">
+            <main className="bg-dark h-120">
                 {/* Here we are calling the renderPage method which will return a component  */}
                 <div className="text-white" >
                     {renderPage()}
