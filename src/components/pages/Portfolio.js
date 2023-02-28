@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
 
+import pristineClean from '../../images/pristine-clean.jpeg'
 import HiKamp from '../../images/HiKamp.jpeg';
 import tech_blog from '../../images/tech_blog.jpeg';
 import social_network_api from '../../images/social_network_api.jpeg';
@@ -21,11 +22,25 @@ function Portfolio() {
     return (
         <div className=" container align-middle p-2 bg-dark vh-100" style={{maxWidth: "700px"}}>
             <Carousel activeIndex={index} onSelect={handleSelect} variant="dark">
+            <Carousel.Item className="align-middle p-2">
+                    <img
+                        className="w-100 d-block vh-80"
+                        src={pristineClean}
+                        alt="First slide: Pristine Clean MERN"
+                    />
+                    <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light ">
+                        <h3>Pristine Clean </h3>
+                        <h5>MERN<br></br>MongoDB/Express.js<br></br>React.js/Node.js</h5>
+                        <p>AS the owner of a commercial cleaning business<br></br>I WANT employees to log into an application with the tools and info necessary for their position<br></br>SO THAT I can manage through a SPA</p>
+                        <a href="https://github.com/stevecalla/pristine-clean-v2" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
+                        <a href="https://pristine-clean.herokuapp.com/" target="_blank" role="button" className="btn btn-info mx-1">Heroku App</a>
+                    </Carousel.Caption>
+                </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="w-100 d-block"
+                        className="w-100 d-block vh-80"
                         src={HiKamp}
-                        alt="First slide: HiKamp MVC"
+                        alt="Second slide: HiKamp MVC"
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light ">
                         <h3>HiKamp MVC</h3>
@@ -37,9 +52,9 @@ function Portfolio() {
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 vh-80"
                         src={tech_blog}
-                        alt="Second slide: Tech Blog MVC"
+                        alt="Third slide: Tech Blog MVC"
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Tech Blog MVC</h3>
@@ -51,9 +66,9 @@ function Portfolio() {
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 vh-80"
                         src={social_network_api}
-                        alt="Third slide: Social Network API"
+                        alt="Fourth slide: Social Network API"
                     />
                     <Carousel.Caption className="rounded bg-light bg-opacity-75 text-dark">
                         <h3>Social Network API</h3>
@@ -64,9 +79,9 @@ function Portfolio() {
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 vh-80"
                         src={team_profile_gen}
-                        alt="Fourth slide: Team Profile Generator"
+                        alt="Fifth slide: Team Profile Generator"
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Team Profile Generator</h3>
@@ -77,9 +92,9 @@ function Portfolio() {
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 vh-80"
                         src={fetch_coin}
-                        alt="Fifth slide: Fetch Coin"
+                        alt="Sixth slide: Fetch Coin"
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Fetch Coin</h3>
@@ -91,9 +106,9 @@ function Portfolio() {
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 vh-80"
                         src={weather_dashboard}
-                        alt="Sixth slide: Weather Dashboard"
+                        alt="Seventh slide: Weather Dashboard"
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Weather Dashboard</h3>
