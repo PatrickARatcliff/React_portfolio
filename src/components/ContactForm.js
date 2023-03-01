@@ -85,7 +85,7 @@ function ContactForm() {
       };
 
     return (
-        <div className="container vh-100 p-2" style={{maxWidth: "900px"}}>
+        <div className="container vh-100 p-2" style={{}}>
             <div className='justify-content-center mx-3 row'>
                 {/* <!--Section: Contact--> */}
                 <section className="mb-4 pt-3 col-12">
@@ -169,9 +169,9 @@ function ContactForm() {
                                 </div>
                                 {/* <!--Grid row--> */}
                             </form>
-                            <div className="text-center text-md-left my-3">
+                            <div className="text-center text-md-left my-3 d-grid gap-2">
                                 <button
-                                    className="btn btn-primary btn-block col-3"
+                                    className="btn btn-primary btn-block col"
                                     onClick={handleFormSubmit}>Send</button>
                                 <p className="error-text">{errorMessage}</p>
                             </div>

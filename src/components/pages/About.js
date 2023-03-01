@@ -9,14 +9,14 @@ function AboutMe(props) {
 
 
     return (
-        <div className="container p-2" style={{ maxWidth: "750px"}}>
+        <div className="container p-2" style={{ maxWidth: "650px"}}>
             <Card className='p-3' style={{ maxWidth: "750px"}}>
                 <Card.Img variant="top" src={profile} style= {{ objectFit: "contain" }}/>
                 <Card.Body>
                     {/* <Card.Title className='text-dark text-center'>About Me</Card.Title> */}
                     <Card.Text className='text-dark h6 text-center'>
-                        <strong className="text-center">Web Developer | Full-Stack | Operations | Training<br></br>Multi-Media Developer</strong><br></br><br></br>
-                        Enterprising M.B.A., full-stack coding certificate holder, military veteran, seeking to pair education with military experience focused on communication, requirements gathering, team-work and execution.
+                        <h5><strong className="text-center">Web Developer | Full-Stack | Operations | Training<br></br>Multi-Media Developer</strong></h5><br></br>
+                        Enterprising M.B.A., full-stack coding certificate holder, military veteran. Seeking to pair education with military experience focused on communication, requirements gathering, team-work and execution.
                     </Card.Text>
                     <div className='d-flex justify-content-center mt-3'>
                         <Button href="https://github.com/PatrickARatcliff" target="_blank" variant="primary" className='ms-1 text-light'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">

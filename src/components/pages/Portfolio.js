@@ -20,7 +20,7 @@ function Portfolio() {
     };
 
     return (
-        <div className="container align-middle p-2 bg-dark" style={{ maxWidth: "775px", height: "80vh"}} >
+        <div className="container align-middle p-2 bg-dark" style={{ maxWidth: "650px", height: "75vh"}} >
             <Carousel activeIndex={index} onSelect={handleSelect} variant="dark" style={{ minHeight: "fit-content" }}>
             <Carousel.Item className="align-middle p-2" style={{ }}>
                     <img
