@@ -36,7 +36,7 @@ export default function ReactPort() {
                     <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
                 </div>
             </header>
-            <main className="container-fluid bg-dark">
+            <main className="container-fluid bg-dark" style={{ height: "fit-content", minHeight: "1200px" }}>
                 {/* Here we are calling the renderPage method which will return a component  */}
                 <div className="text-white" >
                     {renderPage()}

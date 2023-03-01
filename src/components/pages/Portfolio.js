@@ -20,13 +20,14 @@ function Portfolio() {
     };
 
     return (
-        <div className="container align-middle p-2 bg-dark" style={{maxWidth: "675px", height: "100vh"}}>
-            <Carousel activeIndex={index} onSelect={handleSelect} variant="dark">
-            <Carousel.Item className="align-middle p-2">
+        <div className="container align-middle p-2 bg-dark" style={{ maxWidth: "775px", height: "80vh"}} >
+            <Carousel activeIndex={index} onSelect={handleSelect} variant="dark" style={{ minHeight: "fit-content" }}>
+            <Carousel.Item className="align-middle p-2" style={{ }}>
                     <img
-                        className="w-100 d-block"
+                        className="d-block w-100 max-vh-75"
                         src={pristineClean}
                         alt="First slide: Pristine Clean MERN"
+                        style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light ">
                         <h3>Pristine Clean </h3>
@@ -38,9 +39,10 @@ function Portfolio() {
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="w-100 d-block vh-80"
+                        className="w-100 d-block max-h-50"
                         src={HiKamp}
                         alt="Second slide: HiKamp MVC"
+                        style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light ">
                         <h3>HiKamp MVC</h3>
@@ -55,6 +57,7 @@ function Portfolio() {
                         className="d-block w-100 vh-80"
                         src={tech_blog}
                         alt="Third slide: Tech Blog MVC"
+                        style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Tech Blog MVC</h3>
@@ -66,9 +69,10 @@ function Portfolio() {
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
                     <img
-                        className="d-block w-100 vh-80"
+                        className="d-block w-100 vh-50"
                         src={social_network_api}
                         alt="Fourth slide: Social Network API"
+                        style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-light bg-opacity-75 text-dark">
                         <h3>Social Network API</h3>
@@ -82,6 +86,7 @@ function Portfolio() {
                         className="d-block w-100 vh-80"
                         src={team_profile_gen}
                         alt="Fifth slide: Team Profile Generator"
+                        style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Team Profile Generator</h3>
@@ -95,6 +100,7 @@ function Portfolio() {
                         className="d-block w-100 vh-80"
                         src={fetch_coin}
                         alt="Sixth slide: Fetch Coin"
+                        style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Fetch Coin</h3>
@@ -109,6 +115,7 @@ function Portfolio() {
                         className="d-block w-100 vh-80"
                         src={weather_dashboard}
                         alt="Seventh slide: Weather Dashboard"
+                        style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
                         <h3>Weather Dashboard</h3>
