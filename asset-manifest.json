@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/React_portfolio/static/css/main.e1e4b545.chunk.css",
-    "main.js": "/React_portfolio/static/js/main.ed5563cd.chunk.js",
-    "main.js.map": "/React_portfolio/static/js/main.ed5563cd.chunk.js.map",
+    "main.js": "/React_portfolio/static/js/main.b10e1f3f.chunk.js",
+    "main.js.map": "/React_portfolio/static/js/main.b10e1f3f.chunk.js.map",
     "runtime-main.js": "/React_portfolio/static/js/runtime-main.5bfbde6f.js",
     "runtime-main.js.map": "/React_portfolio/static/js/runtime-main.5bfbde6f.js.map",
     "static/css/2.42d51ddf.chunk.css": "/React_portfolio/static/css/2.42d51ddf.chunk.css",
-    "static/js/2.5c4f2521.chunk.js": "/React_portfolio/static/js/2.5c4f2521.chunk.js",
-    "static/js/2.5c4f2521.chunk.js.map": "/React_portfolio/static/js/2.5c4f2521.chunk.js.map",
+    "static/js/2.c56dee3e.chunk.js": "/React_portfolio/static/js/2.c56dee3e.chunk.js",
+    "static/js/2.c56dee3e.chunk.js.map": "/React_portfolio/static/js/2.c56dee3e.chunk.js.map",
     "index.html": "/React_portfolio/index.html",
     "static/css/2.42d51ddf.chunk.css.map": "/React_portfolio/static/css/2.42d51ddf.chunk.css.map",
     "static/css/main.e1e4b545.chunk.css.map": "/React_portfolio/static/css/main.e1e4b545.chunk.css.map",
-    "static/js/2.5c4f2521.chunk.js.LICENSE.txt": "/React_portfolio/static/js/2.5c4f2521.chunk.js.LICENSE.txt",
+    "static/js/2.c56dee3e.chunk.js.LICENSE.txt": "/React_portfolio/static/js/2.c56dee3e.chunk.js.LICENSE.txt",
     "static/media/HiKamp.9b50b55b.jpeg": "/React_portfolio/static/media/HiKamp.9b50b55b.jpeg",
     "static/media/fetch_coin.49a930d8.jpeg": "/React_portfolio/static/media/fetch_coin.49a930d8.jpeg",
+    "static/media/pristine-clean.173b045d.jpeg": "/React_portfolio/static/media/pristine-clean.173b045d.jpeg",
     "static/media/profile.99bc6525.jpeg": "/React_portfolio/static/media/profile.99bc6525.jpeg",
-    "static/media/resume1.5a3494d3.jpg": "/React_portfolio/static/media/resume1.5a3494d3.jpg",
-    "static/media/resume2.0346f0b7.jpg": "/React_portfolio/static/media/resume2.0346f0b7.jpg",
-    "static/media/resume3.1edb6d72.jpg": "/React_portfolio/static/media/resume3.1edb6d72.jpg",
-    "static/media/resume4.b2012b52.jpg": "/React_portfolio/static/media/resume4.b2012b52.jpg",
+    "static/media/resume1.ceb5f441.jpeg": "/React_portfolio/static/media/resume1.ceb5f441.jpeg",
+    "static/media/resume2.88f80dcc.jpeg": "/React_portfolio/static/media/resume2.88f80dcc.jpeg",
+    "static/media/resume3.fb6ac1c7.jpeg": "/React_portfolio/static/media/resume3.fb6ac1c7.jpeg",
+    "static/media/resume4.7aba8323.jpeg": "/React_portfolio/static/media/resume4.7aba8323.jpeg",
     "static/media/social_network_api.8d86f69b.jpeg": "/React_portfolio/static/media/social_network_api.8d86f69b.jpeg",
     "static/media/team_profile_gen.8d85c9e4.jpeg": "/React_portfolio/static/media/team_profile_gen.8d85c9e4.jpeg",
     "static/media/tech_blog.61a4b49d.jpeg": "/React_portfolio/static/media/tech_blog.61a4b49d.jpeg",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.5bfbde6f.js",
     "static/css/2.42d51ddf.chunk.css",
-    "static/js/2.5c4f2521.chunk.js",
+    "static/js/2.c56dee3e.chunk.js",
     "static/css/main.e1e4b545.chunk.css",
-    "static/js/main.ed5563cd.chunk.js"
+    "static/js/main.b10e1f3f.chunk.js"
   ]
 }
