@@ -9,8 +9,8 @@ function AboutMe(props) {
 
 
     return (
-        <div className=" container p-2 bg-dark vh-100" style={{maxWidth: "900px"}}>
-            <Card className='p-3' style={{ width: 'vw-100' }}>
+        <div className="container p-2" style={{maxWidth: "750px", height: "100vh"}}>
+            <Card className='p-3'>
                 <Card.Img variant="top" src={profile}/>
                 <Card.Body>
                     {/* <Card.Title className='text-dark text-center'>About Me</Card.Title> */}
