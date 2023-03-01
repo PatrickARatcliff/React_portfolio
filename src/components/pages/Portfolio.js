@@ -30,11 +30,11 @@ function Portfolio() {
                         style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light ">
-                        <h3>Pristine Clean </h3>
-                        <h5>MERN<br></br>MongoDB/Express.js<br></br>React.js/Node.js</h5>
-                        <p>AS the owner of a commercial cleaning business<br></br>I WANT employees to log into an application with the tools and info necessary for their position<br></br>SO THAT I can manage through a SPA</p>
-                        <a href="https://github.com/stevecalla/pristine-clean-v2" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
-                        <a href="https://pristine-clean.herokuapp.com/" target="_blank" role="button" className="btn btn-info mx-1">Heroku App</a>
+                        <h3>Pristine Clean MERN</h3>
+                        <h5>MongoDB/Express.js<br></br>React.js/Node.js</h5>
+                        <p>AS owner of a commercial cleaning business<br></br>I WANT an application with tools and info necessary for various positions<br></br>SO THAT I can manage with an SPA</p>
+                        <a href="https://github.com/stevecalla/pristine-clean-v2" target="_blank" role="button" className="btn btn-info m-1">GitHub Repo</a>
+                        <a href="https://pristine-clean.herokuapp.com/" target="_blank" role="button" className="btn btn-info m-1">Heroku App</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
@@ -48,8 +48,8 @@ function Portfolio() {
                         <h3>HiKamp MVC</h3>
                         <h5>Node/Express/SQL<br></br>Sequelize/Handlebars</h5>
                         <p>Interactive app allows a user to easily search campgrounds within the United States National Park Service</p>
-                        <a href="https://github.com/stevecalla/hiKamp" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
-                        <a href="https://hikamp.herokuapp.com/" target="_blank" role="button" className="btn btn-info mx-1">Heroku App</a>
+                        <a href="https://github.com/stevecalla/hiKamp" target="_blank" role="button" className="btn btn-info m-1">GitHub Repo</a>
+                        <a href="https://hikamp.herokuapp.com/" target="_blank" role="button" className="btn btn-info m-1">Heroku App</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
@@ -63,8 +63,8 @@ function Portfolio() {
                         <h3>Tech Blog MVC</h3>
                         <h5>Node/Express/SQL<br></br>Sequelize/Handlebars</h5>
                         <p>CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts</p>
-                        <a href="https://github.com/PatrickARatcliff/m14c-MVC-tech_blog" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
-                        <a href="https://m14c-mvc-techblog.herokuapp.com/" target="_blank" role="button" className="btn btn-info mx-1">Heroku App</a>
+                        <a href="https://github.com/PatrickARatcliff/m14c-MVC-tech_blog" target="_blank" role="button" className="btn btn-info m-1">GitHub Repo</a>
+                        <a href="https://m14c-mvc-techblog.herokuapp.com/" target="_blank" role="button" className="btn btn-info m-1">Heroku App</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
@@ -106,8 +106,8 @@ function Portfolio() {
                         <h3>Fetch Coin</h3>
                         <h5>3rd Party API</h5>
                         <p>Quickly find status, basic information, and news for crypto coins</p>
-                        <a href="https://github.com/PatrickARatcliff/k5-project1-finance_info" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
-                        <a href="https://patrickaratcliff.github.io/k5-project1-finance_info/" target="_blank" role="button" className="btn btn-info mx-1">GitHub Pages</a>
+                        <a href="https://github.com/PatrickARatcliff/k5-project1-finance_info" target="_blank" role="button" className="btn btn-info m-1">GitHub Repo</a>
+                        <a href="https://patrickaratcliff.github.io/k5-project1-finance_info/" target="_blank" role="button" className="btn btn-info m-1">GitHub Pages</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="align-middle p-2">
@@ -121,8 +121,8 @@ function Portfolio() {
                         <h3>Weather Dashboard</h3>
                         <h5>3rd Party API</h5>
                         <p>Quickly find weather, basic information for a given city</p>
-                        <a href="https://github.com/PatrickARatcliff/m6c-weather_app" target="_blank" role="button" className="btn btn-info mx-1">GitHub Repo</a>
-                        <a href="https://patrickaratcliff.github.io/m6c-weather_app/" target="_blank" role="button" className="btn btn-info mx-1">GitHub Pages</a>
+                        <a href="https://github.com/PatrickARatcliff/m6c-weather_app" target="_blank" role="button" className="btn btn-info m-1">GitHub Repo</a>
+                        <a href="https://patrickaratcliff.github.io/m6c-weather_app/" target="_blank" role="button" className="btn btn-info m-1">GitHub Pages</a>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
