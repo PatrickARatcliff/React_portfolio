@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import pristineClean from '../../images/pristine-clean.jpeg'
 import HiKamp from '../../images/HiKamp.jpeg';
+import superSnake from '../../images/super_snake.jpg'
 import tech_blog from '../../images/tech_blog.jpeg';
 import social_network_api from '../../images/social_network_api.jpeg';
 import team_profile_gen from '../../images/team_profile_gen.jpeg';
@@ -55,8 +56,24 @@ function Portfolio() {
                 <Carousel.Item className="align-middle p-2">
                     <img
                         className="d-block w-100 vh-80"
+                        src={superSnake}
+                        alt="Third slide: Super Snake"
+                        style= {{ objectFit: "contain" }}
+                    />
+                    <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
+                        <h3>Super Snake</h3>
+                        <h5>p5.js</h5>
+                        <p>Simple, entertaining, aesthetically and aubibly pleasing snake game!</p>
+                        <a href="https://github.com/PatrickARatcliff/super_snake" target="_blank" role="button" className="btn btn-info m-1">GitHub Repo</a>
+                        <a href="https://patrickaratcliff.github.io/super_snake/">GitHub Pages</a>
+                        <a href="https://editor.p5js.org/PatrickARatcliff/full/0oFubilss" target="_blank" role="button" className="btn btn-info m-1">p5.js</a>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="align-middle p-2">
+                    <img
+                        className="d-block w-100 vh-80"
                         src={tech_blog}
-                        alt="Third slide: Tech Blog MVC"
+                        alt="Fourth slide: Tech Blog MVC"
                         style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
@@ -71,7 +88,7 @@ function Portfolio() {
                     <img
                         className="d-block w-100 vh-50"
                         src={social_network_api}
-                        alt="Fourth slide: Social Network API"
+                        alt="Fifth slide: Social Network API"
                         style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-light bg-opacity-75 text-dark">
@@ -85,7 +102,7 @@ function Portfolio() {
                     <img
                         className="d-block w-100 vh-80"
                         src={team_profile_gen}
-                        alt="Fifth slide: Team Profile Generator"
+                        alt="Sixth slide: Team Profile Generator"
                         style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
@@ -99,7 +116,7 @@ function Portfolio() {
                     <img
                         className="d-block w-100 vh-80"
                         src={fetch_coin}
-                        alt="Sixth slide: Fetch Coin"
+                        alt="Seventh slide: Fetch Coin"
                         style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
@@ -114,7 +131,7 @@ function Portfolio() {
                     <img
                         className="d-block w-100 vh-80"
                         src={weather_dashboard}
-                        alt="Seventh slide: Weather Dashboard"
+                        alt="Eighth slide: Weather Dashboard"
                         style= {{ objectFit: "contain" }}
                     />
                     <Carousel.Caption className="rounded bg-dark bg-opacity-75 text-light">
