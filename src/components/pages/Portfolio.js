@@ -65,7 +65,7 @@ function Portfolio() {
                         <h5>p5.js</h5>
                         <p>Simple, entertaining, aesthetically and aubibly pleasing snake game!</p>
                         <a href="https://github.com/PatrickARatcliff/super_snake" target="_blank" role="button" className="btn btn-info m-1">GitHub Repo</a>
-                        <a href="https://patrickaratcliff.github.io/super_snake/">GitHub Pages</a>
+                        <a href="https://patrickaratcliff.github.io/super_snake/" target="_blank" role="button" className="btn btn-info m-1">GitHub Pages</a>
                         <a href="https://editor.p5js.org/PatrickARatcliff/full/0oFubilss" target="_blank" role="button" className="btn btn-info m-1">p5.js</a>
                     </Carousel.Caption>
                 </Carousel.Item>
