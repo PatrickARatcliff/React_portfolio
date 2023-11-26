@@ -5,43 +5,46 @@ import ContactForm from './ContactForm';
 import AboutMe from './pages/About';
 import Resume from './pages/Resume';
 
-
 export default function ReactPort() {
-    const [currentPage, setCurrentPage] = useState('AboutMe');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
-    // check for the value of `currentPage`
-    const renderPage = () => {
-        if (currentPage === 'AboutMe') {
-            return <AboutMe />;
-        }
-        if (currentPage === 'Portfolio') {
-            return <Portfolio />;
-        }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-        return <ContactForm />;
-    };
+  // check for the value of `currentPage`
+  const renderPage = () => {
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <ContactForm />;
+  };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => setCurrentPage(page);
 
-    return (
-        <>
-            <header className="min-vh-25">
-                <div className="m-3 text-center">
-                    <h1>Patrick Ratcliff</h1>
-                </div>
-                {/* We are passing the currentPage from state and the function to update it */}
-                <div>
-                    <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-                </div>
-            </header>
-            <main className="container-fluid bg-dark" style={{ height: "fit-content", minHeight: "1200px" }}>
-                {/* Here we are calling the renderPage method which will return a component  */}
-                <div className="text-white" >
-                    {renderPage()}
-                </div>
-            </main>
-        </>
-    );
+  return (
+    <>
+      <header className="15vh">
+        <div className="m-2 text-center">
+          <h1>Patrick Ratcliff</h1>
+        </div>
+        {/* We are passing the currentPage from state and the function to update it */}
+        <div>
+          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        </div>
+      </header>
+      <main className="bg-dark" style={{ height: '87vh', width: '100vw', overflowY: 'scroll', overflowX: "hidden", display: 'flex', alignItems: 'center', justifyContent: 'center'
+    //   , borderRadius: '5px' 
+      }}>
+        {/* Here we are calling the renderPage method which will return a component  */}
+        <div className="text-white" 
+        style={{ height: "100%", width: "100%" }} 
+        >
+          {renderPage()}
+        </div>
+      </main>
+    </>
+  );
 }
