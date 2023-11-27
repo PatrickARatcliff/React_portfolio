@@ -1,36 +1,23 @@
 {
   "files": {
-    "main.css": "/React_portfolio/static/css/main.e1e4b545.chunk.css",
-    "main.js": "/React_portfolio/static/js/main.23cec6ef.chunk.js",
-    "main.js.map": "/React_portfolio/static/js/main.23cec6ef.chunk.js.map",
-    "runtime-main.js": "/React_portfolio/static/js/runtime-main.5bfbde6f.js",
-    "runtime-main.js.map": "/React_portfolio/static/js/runtime-main.5bfbde6f.js.map",
-    "static/css/2.42d51ddf.chunk.css": "/React_portfolio/static/css/2.42d51ddf.chunk.css",
-    "static/js/2.428591b5.chunk.js": "/React_portfolio/static/js/2.428591b5.chunk.js",
-    "static/js/2.428591b5.chunk.js.map": "/React_portfolio/static/js/2.428591b5.chunk.js.map",
+    "main.css": "/React_portfolio/static/css/main.85897386.css",
+    "main.js": "/React_portfolio/static/js/main.cb1856e3.js",
+    "static/media/profile.jpeg": "/React_portfolio/static/media/profile.65a7452908a12e4a351d.jpeg",
+    "static/media/HiKamp.jpeg": "/React_portfolio/static/media/HiKamp.fb116fc273eebd08f709.jpeg",
+    "static/media/social_network_api.jpeg": "/React_portfolio/static/media/social_network_api.ace20c9ef6db9d897218.jpeg",
+    "static/media/super_snake.jpg": "/React_portfolio/static/media/super_snake.15f4531ceb0ebf2b0c74.jpg",
+    "static/media/pristine-clean.jpeg": "/React_portfolio/static/media/pristine-clean.6592e210a47d4fcdc264.jpeg",
+    "static/media/weather_dashboard.jpeg": "/React_portfolio/static/media/weather_dashboard.c6bc5b99b2fd8303ef90.jpeg",
+    "static/media/team_profile_gen.jpeg": "/React_portfolio/static/media/team_profile_gen.c8e42e701ff73ac9a640.jpeg",
+    "static/media/tech_blog.jpeg": "/React_portfolio/static/media/tech_blog.9c89efb0564534ae03c8.jpeg",
+    "static/media/Patrick_Ratcliff-Web_Developer.pdf": "/React_portfolio/static/media/Patrick_Ratcliff-Web_Developer.821500f159d68cd9d8ec.pdf",
+    "static/media/fetch_coin.jpeg": "/React_portfolio/static/media/fetch_coin.5d5126b6052a6e196684.jpeg",
     "index.html": "/React_portfolio/index.html",
-    "static/css/2.42d51ddf.chunk.css.map": "/React_portfolio/static/css/2.42d51ddf.chunk.css.map",
-    "static/css/main.e1e4b545.chunk.css.map": "/React_portfolio/static/css/main.e1e4b545.chunk.css.map",
-    "static/js/2.428591b5.chunk.js.LICENSE.txt": "/React_portfolio/static/js/2.428591b5.chunk.js.LICENSE.txt",
-    "static/media/HiKamp.fb116fc2.jpeg": "/React_portfolio/static/media/HiKamp.fb116fc2.jpeg",
-    "static/media/fetch_coin.5d5126b6.jpeg": "/React_portfolio/static/media/fetch_coin.5d5126b6.jpeg",
-    "static/media/pristine-clean.6592e210.jpeg": "/React_portfolio/static/media/pristine-clean.6592e210.jpeg",
-    "static/media/profile.50aad868.jpeg": "/React_portfolio/static/media/profile.50aad868.jpeg",
-    "static/media/resume1.ceb5f441.jpeg": "/React_portfolio/static/media/resume1.ceb5f441.jpeg",
-    "static/media/resume2.88f80dcc.jpeg": "/React_portfolio/static/media/resume2.88f80dcc.jpeg",
-    "static/media/resume3.fb6ac1c7.jpeg": "/React_portfolio/static/media/resume3.fb6ac1c7.jpeg",
-    "static/media/resume4.7aba8323.jpeg": "/React_portfolio/static/media/resume4.7aba8323.jpeg",
-    "static/media/social_network_api.ace20c9e.jpeg": "/React_portfolio/static/media/social_network_api.ace20c9e.jpeg",
-    "static/media/super_snake.15f4531c.jpg": "/React_portfolio/static/media/super_snake.15f4531c.jpg",
-    "static/media/team_profile_gen.c8e42e70.jpeg": "/React_portfolio/static/media/team_profile_gen.c8e42e70.jpeg",
-    "static/media/tech_blog.9c89efb0.jpeg": "/React_portfolio/static/media/tech_blog.9c89efb0.jpeg",
-    "static/media/weather_dashboard.c6bc5b99.jpeg": "/React_portfolio/static/media/weather_dashboard.c6bc5b99.jpeg"
+    "main.85897386.css.map": "/React_portfolio/static/css/main.85897386.css.map",
+    "main.cb1856e3.js.map": "/React_portfolio/static/js/main.cb1856e3.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5bfbde6f.js",
-    "static/css/2.42d51ddf.chunk.css",
-    "static/js/2.428591b5.chunk.js",
-    "static/css/main.e1e4b545.chunk.css",
-    "static/js/main.23cec6ef.chunk.js"
+    "static/css/main.85897386.css",
+    "static/js/main.cb1856e3.js"
   ]
 }
