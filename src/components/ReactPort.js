@@ -5,10 +5,11 @@ import ContactForm from './ContactForm';
 import AboutMe from './pages/About';
 import Resume from './pages/Resume';
 
+import '../styles/ReactPort.css';
+
 export default function ReactPort() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
-  // check for the value of `currentPage`
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
@@ -28,7 +29,7 @@ export default function ReactPort() {
     <>
       <header className="15vh">
         <div className="m-2 text-center">
-          <h1>Patrick Ratcliff</h1>
+          <h1 className="title-text">Patrick Ratcliff</h1>
         </div>
         {/* We are passing the currentPage from state and the function to update it */}
         <div>
