@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/React_portfolio/static/css/main.85897386.css",
-    "main.js": "/React_portfolio/static/js/main.cb1856e3.js",
+    "main.css": "/React_portfolio/static/css/main.ba8b236f.css",
+    "main.js": "/React_portfolio/static/js/main.49188e8d.js",
     "static/media/profile.jpeg": "/React_portfolio/static/media/profile.65a7452908a12e4a351d.jpeg",
     "static/media/HiKamp.jpeg": "/React_portfolio/static/media/HiKamp.fb116fc273eebd08f709.jpeg",
     "static/media/social_network_api.jpeg": "/React_portfolio/static/media/social_network_api.ace20c9ef6db9d897218.jpeg",
+    "static/media/repair_shop.jpeg": "/React_portfolio/static/media/repair_shop.d555ac89e0efbbdd8ddc.jpeg",
     "static/media/super_snake.jpg": "/React_portfolio/static/media/super_snake.15f4531ceb0ebf2b0c74.jpg",
     "static/media/pristine-clean.jpeg": "/React_portfolio/static/media/pristine-clean.6592e210a47d4fcdc264.jpeg",
-    "static/media/weather_dashboard.jpeg": "/React_portfolio/static/media/weather_dashboard.c6bc5b99b2fd8303ef90.jpeg",
-    "static/media/team_profile_gen.jpeg": "/React_portfolio/static/media/team_profile_gen.c8e42e701ff73ac9a640.jpeg",
-    "static/media/tech_blog.jpeg": "/React_portfolio/static/media/tech_blog.9c89efb0564534ae03c8.jpeg",
-    "static/media/Patrick_Ratcliff-Web_Developer.pdf": "/React_portfolio/static/media/Patrick_Ratcliff-Web_Developer.821500f159d68cd9d8ec.pdf",
-    "static/media/fetch_coin.jpeg": "/React_portfolio/static/media/fetch_coin.5d5126b6052a6e196684.jpeg",
+    "static/media/Patrick_Ratcliff-Web_Developer.pdf": "/React_portfolio/static/media/Patrick_Ratcliff-Web_Developer.bee27c450a87e38e4a00.pdf",
     "index.html": "/React_portfolio/index.html",
-    "main.85897386.css.map": "/React_portfolio/static/css/main.85897386.css.map",
-    "main.cb1856e3.js.map": "/React_portfolio/static/js/main.cb1856e3.js.map"
+    "main.ba8b236f.css.map": "/React_portfolio/static/css/main.ba8b236f.css.map",
+    "main.49188e8d.js.map": "/React_portfolio/static/js/main.49188e8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.85897386.css",
-    "static/js/main.cb1856e3.js"
+    "static/css/main.ba8b236f.css",
+    "static/js/main.49188e8d.js"
   ]
 }
