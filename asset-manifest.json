@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_portfolio/static/css/main.ba8b236f.css",
-    "main.js": "/React_portfolio/static/js/main.49188e8d.js",
+    "main.js": "/React_portfolio/static/js/main.077dd9a4.js",
     "static/media/profile.jpeg": "/React_portfolio/static/media/profile.65a7452908a12e4a351d.jpeg",
     "static/media/HiKamp.jpeg": "/React_portfolio/static/media/HiKamp.fb116fc273eebd08f709.jpeg",
     "static/media/social_network_api.jpeg": "/React_portfolio/static/media/social_network_api.ace20c9ef6db9d897218.jpeg",
@@ -11,10 +11,10 @@
     "static/media/Patrick_Ratcliff-Web_Developer.pdf": "/React_portfolio/static/media/Patrick_Ratcliff-Web_Developer.bee27c450a87e38e4a00.pdf",
     "index.html": "/React_portfolio/index.html",
     "main.ba8b236f.css.map": "/React_portfolio/static/css/main.ba8b236f.css.map",
-    "main.49188e8d.js.map": "/React_portfolio/static/js/main.49188e8d.js.map"
+    "main.077dd9a4.js.map": "/React_portfolio/static/js/main.077dd9a4.js.map"
   },
   "entrypoints": [
     "static/css/main.ba8b236f.css",
-    "static/js/main.49188e8d.js"
+    "static/js/main.077dd9a4.js"
   ]
 }
